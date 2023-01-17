@@ -15,7 +15,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div className="h-full max-w-lg pl-4 pr-4 mt-8 border border-slate-300">
+      <div className="h-full max-w-lg ml-auto mr-auto pl-4 pr-4 mt-8 border border-slate-300">
         <nav className="flex w-full justify-between h-10 item-center">
           <h4 className="text-2xl font-sans font-semibold">Discover</h4>
           <div className="flex self-center relative">
