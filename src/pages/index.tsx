@@ -3,6 +3,7 @@ import Image from 'next/image'
 import { Inter } from '@next/font/google'
 import styles from '@/styles/Home.module.css'
 import BellIcon from '../components/icons/Bell'
+import FilterIcon from '../components/icons/Filter'
 
 
 const inter = Inter({ subsets: ['latin'] })
@@ -24,6 +25,17 @@ export default function Home() {
             <div className={`${styles.count} bg-black text-white rounded-full text-center w-5 h-5 text-xs absolute`}>1</div>
           </div>
         </nav>
+        <div className="flex justify-between h-auto pt-4 pb-4">
+          <div className="bg-slate-200 h-14 rounded-lg w-4/5">
+            <div></div>
+            <div className="h-full">
+              <input type="text" className="bg-transparent text-justify h-full" placeholder="Seach anything"/>
+            </div>
+          </div>
+          <div className="h-14 w-1/5 ml-3 bg-black flex justify-center items-center rounded-lg">
+            <FilterIcon />
+          </div>
+        </div>
       </div>
     </>
   )
