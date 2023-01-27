@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-@import "../assets/fonts/GeneralSans/style.css";
+@import "../fonts/GeneralSans/style.css";
 
 * {
     font-family: 'General Sans light';

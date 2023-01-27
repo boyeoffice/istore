@@ -1,6 +1,6 @@
-import styles from '@/styles/Home.module.css'
-import BellIcon from '../icons/Bell'
-import FilterIcon from '../icons/Filter'
+import Image from 'next/image'
+import styles from '../../assets/styles/Home.module.css'
+import images from '../../constants/images'
 
 export default function Header() {
   return (
@@ -15,11 +15,11 @@ export default function Header() {
             <input type="text" className="bg-[#F2F2F2] text-zinc-300 focus-visible:text-zinc-600 text-justify h-full w-full pl-3" placeholder="Seach anything"/>
           </div>
           <div className="h-14 w-1/5 ml-3 bg-black flex justify-center items-center rounded-lg">
-            {/* <FilterIcon /> */}
+            <Image src={images.FilterIcon} alt="" />
           </div>
         </div>
         <div className="right relative flex self-center">
-          {/* <BellIcon /> */}
+          <Image src={images.BellIcon} alt="" />
           <div className={`${styles.count} bg-black text-white rounded-full text-center w-5 h-5 text-xs absolute`}>1</div>
         </div>
       </div>
