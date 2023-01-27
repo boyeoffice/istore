@@ -9,3 +9,13 @@
     font-style: normal;
     font-weight: normal;
 }
+
+body {
+  margin-top: 130px;
+}
+
+@media (max-width: 1200px) {
+  body {
+    margin-top: 170px;
+  }
+}

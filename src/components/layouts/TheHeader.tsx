@@ -5,18 +5,20 @@ import images from '../../constants/images'
 export default function Header() {
   return (
     <>
-    <nav className="w-full">
-      <div className="container flex justify-between lg:px-0 px-4 py-5 m-auto">
+    <nav className="w-full border border-zinc-300 fixed top-0">
+      <div className="container flex justify-between lg:px-0 px-4 py-5 mx-auto">
         <div className="brand flex self-center">
           <span className="font-semibold font-sans-medium text-3xl">Discover</span>
         </div>
-        <div className="search lg:relative absolute px-4 left-0 lg:top-0 top-20 flex justify-between w-full lg:w-4/12">
+        <div className="search lg:relative absolute px-4 left-0 lg:top-0 top-[90px] flex w-full justify-between lg:w-4/12">
+        <div className="container mx-auto flex">
           <div className="w-full">
-            <input type="text" className="bg-[#F2F2F2] text-zinc-300 focus-visible:text-zinc-600 text-justify h-full w-full pl-3" placeholder="Seach anything"/>
+            <input type="text" className="bg-[#F2F2F2] text-zinc-300 rounded-lg focus-visible:text-zinc-600 text-justify h-11 w-full pl-3" placeholder="Seach anything"/>
           </div>
-          <div className="h-14 w-1/5 ml-3 bg-black flex justify-center items-center rounded-lg">
+          <div className="h-11 lg:w-[14%] w-[18%] ml-3 bg-black flex justify-center items-center rounded-lg">
             <Image src={images.FilterIcon} alt="" />
           </div>
+        </div>
         </div>
         <div className="right relative flex self-center">
           <Image src={images.BellIcon} alt="" />

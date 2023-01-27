@@ -17,7 +17,7 @@ export default function NavPill() {
 
   return (
     <>
-      <div className="w-full lg:mt-5 mt-24">
+      <div className="w-full">
         <div className="container mx-auto">
           <div className="px-4 lg:px-0 flex w-full justify-between lg:justify-start">
             {
