@@ -2,11 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
-@font-face {
-    font-family: 'General Sans';
-    src: url('../assets//fonts//General-Sans.ttf');
-}
+@import "../assets/fonts/GeneralSans/style.css";
 
 * {
-    font-family: 'General Sans';
+    font-family: 'General Sans light';
+    font-style: normal;
+    font-weight: normal;
 }

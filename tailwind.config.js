@@ -19,7 +19,14 @@ module.exports = {
       fontSize: {
         xs: '12px',
         sm: '14px'
-      }
+      },
+      fontFamily: {
+        'sans-light': ['General Sans light'],
+        'sans-medium': ['General Sans Medium'],
+        'sans-regular': ['General Sans Regular'],
+        'sans-semibold': ['General Sans Semibold'],
+        'sans-bold': ['General Sans Bold']
+      },
     },
   },
   plugins: [],
