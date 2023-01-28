@@ -24,7 +24,7 @@ export default function NavPill() {
               items.map((item, index) => {
                 return (
                   <button
-                    className={`${index === indexItem ? 'bg-black text-white':'bg-[#F2F2F2]'} text-base rounded px-4 font-[400] py-1.5 mr-4 text-center`}
+                    className={`${index === indexItem ? 'bg-black text-white':'bg-[#F2F2F2]'} text-base rounded px-4 py-1.5 mr-4 text-center`}
                     key={index}
                     onClick={(e) => handleButton(e, index)}>
                       {item}
