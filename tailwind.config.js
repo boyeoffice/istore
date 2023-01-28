@@ -7,26 +7,15 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        orange: {
-          100: '#FFE5D5',
-          200: '#FEBF96',
-          300: '#FEAA73',
-          400: '#FE9450',
-          500: '#D46A26',
-          600: '#F2761B'
+        primary: '#FF6363',
+        secondary: {
+          100: '#E2E2D5',
+          200: '#888883',
         }
       },
-      fontSize: {
-        xs: '12px',
-        sm: '14px'
-      },
       fontFamily: {
-        'sans-light': ['General Sans light'],
-        'sans-medium': ['General Sans Medium'],
-        'sans-regular': ['General Sans Regular'],
-        'sans-semibold': ['General Sans Semibold'],
-        'sans-bold': ['General Sans Bold']
-      },
+        body: ['Nunito']
+      }
     },
   },
   plugins: [],
